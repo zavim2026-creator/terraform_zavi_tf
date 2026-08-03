@@ -5,6 +5,13 @@ rg_name = {
     name     = "tony-rg"
     location = "centralindia"
   }
+
+ rg2 = {
+
+    name     = "my-rg"
+    location = "centralindia"
+  }
+
 }
 
 
