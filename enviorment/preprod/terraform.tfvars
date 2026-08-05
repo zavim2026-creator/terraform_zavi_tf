@@ -25,14 +25,25 @@ vnets = {
 
     resource_group_name = "tony-rg"
   }
+
+
+  vnet2 = {
+
+    name          = "mony-vnet"
+    location      = "centralindia"
+    address_space = ["10.0.0.0/16"]
+
+    resource_group_name = "tony-rg"
+  }
 }
+
 
 sbnt = {
 
   subnet1 = {
 
 
-    name                 = "frontend-subnet"
+    name                 = "frontend-subnet" 
     virtual_network_name = "tony-vnet"
     resource_group_name  = "tony-rg"
     address_prefixes     = ["10.0.2.0/24"]
